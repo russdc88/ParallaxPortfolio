@@ -6,41 +6,59 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+	<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/image/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/image/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+
+	<!-- links -->
+
+	<!-- css -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/css/style.css">
 
+	<!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="./assets/js/parallax.min.js"></script>
 	<script src="./assets/js/app.js"></script>
 
 
-	<title>Russ Christensen</title>
+	<title>Home</title>
 </head>
 
 <body>
 	<div class="container-fill">
 
 		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bl-dark pt-4 pb-4">
-			<a class="navbar-brand" href="#">Russ Christensen</a>
+			<a class="navbar-brand" href="#">
+				<img src="./assets/image/favicon/android-chrome-192x192.png" class="logo1" alt="">
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
 			 aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="#">Home
+					<a class="nav-item nav-link active" href="#home">Home
 						<span class="sr-only">(current)</span>
 					</a>
-					<a class="nav-item nav-link" href="#">About</a>
-					<a class="nav-item nav-link" href="#">Portfolio</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
+					<a class="nav-item nav-link" href="#about">About</a>
+					<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+					<a class="nav-item nav-link" href="#contact">Contact</a>
 				</div>
 			</div>
 		</nav>
 
 		<div class="parallax1" data-z-index="1" data-speed=".25" data-parallax="scroll" data-image-src="silhouette.jpg">
-			<div class="intro">
+			<div class="intro" id="home">
 
 				<h1 class="text-center">Russ Christensen</h1>
 
@@ -51,7 +69,7 @@
 
 
 		<div class="space">
-			<h2 class="text-center pt-4">About Me</h2>
+			<h2 class="text-center pt-4"id="about">About Me</h2>
 			<hr class="my-4">
 			<div class="row">
 				<div class="col-lg-4">
@@ -75,7 +93,7 @@
 		<div class="parallax" data-z-index="1" data-speed=".25" data-parallax="scroll" data-image-src="utah.jpg"></div>
 
 		<div class="space">
-			<h2 class="text-center pt-4">Portfolio</h2>
+			<h2 class="text-center pt-4" id="portfolio">Portfolio</h2>
 			<hr class="my-4">
 			<div class="row pt-4 pb-4 mb-4">
 				<div class="col-lg-6 pb-4 mb-4">
@@ -104,6 +122,26 @@
 		</div>
 
 		<div class="parallax" data-z-index="1" data-speed=".25" data-parallax="scroll" data-image-src="zion.jpg"></div>
+
+		<div class="space">
+			<h4 class="text-center pt-4 pb-4 mb-4" id="contact">Feel free to check out more on Github or reach out to me on LinkedIn!</h4>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="centered">
+						<a href="https://www.linkedin.com/in/russdchristensen/">
+							<img src="./assets/image/In-Black-128px-TM.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="centered">
+						<a href="https://github.com/russdc88">
+							<img src="./assets/image/GitHub_Logo.png" class="logo" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 	</div>
