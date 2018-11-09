@@ -1,0 +1,47 @@
+.bl-dark {
+	background-color: #7C736E;
+}
+
+.parallax1 {
+	min-height: 650px;
+	background: transparent;
+	margin-bottom: -9px;
+}
+
+.parallax {
+	min-height: 650px;
+	background: transparent;
+	margin-top: -16px;
+	margin-bottom: -6px;
+}
+
+.intro{
+	color:white;
+	z-index: 2;
+	position: relative;
+	top: 100px;
+}
+
+.space {
+	background-color: #EBE1CE;
+	margin: 0;
+}
+
+.images {
+	height: 400px;
+	width:400px;
+}
+
+.centered {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.portfolio{
+
+	height: 300px;
+	width: 300px;
+}
+
