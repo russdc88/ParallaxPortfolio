@@ -99,6 +99,8 @@
 	font-size: 1.35em;
 }
 
+
+
 @media only screen and (max-width: 600px) { .centered {
 	display: inline;
 	margin-left: 5%;
