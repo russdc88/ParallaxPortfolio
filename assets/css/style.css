@@ -1,3 +1,16 @@
+/* html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} */
+
+
+.font-big {
+	font-size: 4.5em;
+}
+
 .bl-dark {
 	background-color: #7C736E;
 }
@@ -38,11 +51,28 @@
   margin-right: auto;
   width: 50%;
 }
+.pic {
+	overflow: hidden;
+	height: 300px;
+	width: 300px;
+}
 
 .portfolio{
 
 	height: 300px;
 	width: 300px;
+
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.portfolio:hover {
+	height: 350px;
+	width:350px;
 }
 
 .logo {
@@ -55,4 +85,90 @@
 	height: 50px;
 	width: 50px;
 }
+
+.name{
+	font-family: 'Roboto', sans-serif;
+}
+
+.intro1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bio {
+	font-family: 'Open Sans Condensed';
+	font-size: 1.35em;
+}
+
+@media only screen and (max-width: 600px) { .centered {
+	display: inline;
+	margin-left: 5%;
+	margin-right: none;
+	}
+
+}
+
+@media only screen and (max-width: 414px){
+	 html,body {
+		 width: 100%;
+		 margin-left: 0px;
+		 margin-right: 0px;
+		 overflow-x: hidden; 
+	 }
+	
+	.images {
+		width: 300px;
+		height: 300px;
+		margin-right: none;
+		margin-left: 1%;
+	}
+
+	.font-big {
+		font-size: 2.5em;
+	}
+
+	.bio {
+		font-size: 1.1em
+	}
+}
+
+@media only screen 
+and (device-width: 414px) 
+and (orientation: portrait)
+{
+	html,body{
+		width:100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		overflow-x: hidden; 
+	}
+	.images {
+		width: 300px;
+		height: 300px;
+		margin-right: none;
+		margin-left: 9%;
+	}
+
+	.portfolio {
+		margin-left: 9%;
+	}
+
+	.font-big {
+		font-size: 2.5em;
+	}
+
+	.bio {
+		font-size: 1.1em;
+		margin-left:1%;
+	}
+
+	.myLinks1 {
+		margin-left:30%;
+		margin-bottom: 5%;
+	}
+
+	.myLinks2 {
+		margin-left: 15%;
+	}
+}
+
 

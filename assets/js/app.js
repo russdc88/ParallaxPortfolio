@@ -1,5 +1,18 @@
+
+
+
 $(document).ready(function () {
 
+	$(document).ready(function(){
+
+		/*! Fades in page on load */
+		$('body').css('display', 'none');
+		$('body').css('background-color','#EBE1CE')
+		
+		$('body').fadeIn(2500);
+		
+		});
+	
 	// Click event for any anchor tag that's href starts with #
 	$('a[href^="#"]').click(function (event) {
 
