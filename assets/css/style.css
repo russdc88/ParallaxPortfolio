@@ -51,11 +51,35 @@
   margin-right: auto;
   width: 50%;
 }
+/* .centered1 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%; */
+}
 .pic {
 	overflow: hidden;
 	height: 300px;
 	width: 300px;
 }
+
+/* .badges {
+	height: 150px;
+	width: 150px;
+
+}
+
+.badges1 {
+	height: 150px;
+	width: 110px;
+	margin-left: 15%;
+}
+
+.badges3 {
+	height: 175px;
+	width: 175px;
+	margin-left: ;
+} */
 
 .portfolio{
 
